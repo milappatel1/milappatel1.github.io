@@ -1,0 +1,2 @@
+# Driftglow app-ads.txt. Add the AdMob line here once the publisher ID exists:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

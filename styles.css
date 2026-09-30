@@ -1,0 +1,21 @@
+@font-face { font-family: 'Fraunces'; font-weight: 600; font-display: swap; src: url('fonts/fraunces-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Nunito'; font-weight: 600; font-display: swap; src: url('fonts/nunito-latin-600-normal.woff2') format('woff2'); }
+:root { --bg: #0B1A2A; --deep: #0E2436; --text: #EAF2F8; --dim: #9FB3C8; --accent: #FFC76A; --panel: rgba(255,255,255,0.07); --border: rgba(255,255,255,0.12); color-scheme: dark; }
+* { box-sizing: border-box; }
+html { background: var(--deep); }
+body { margin: 0; min-height: 100vh; background: linear-gradient(180deg, var(--bg) 0, var(--deep) 900px) var(--deep); color: var(--text); font: 600 17px/1.6 'Nunito', system-ui, sans-serif; overflow-wrap: anywhere; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+h1, h2 { font-family: 'Fraunces', Georgia, serif; font-weight: 600; line-height: 1.2; }
+h1 { font-size: 40px; margin: 0 0 8px; }
+h2 { font-size: 22px; margin: 32px 0 8px; }
+a { color: var(--accent); }
+.dim { color: var(--dim); }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 16px 0; }
+.hero { text-align: center; }
+.hero img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 0 40px rgba(255,170,80,0.25); }
+.badges { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 24px 0; }
+.badge { display: inline-block; padding: 12px 20px; border-radius: 999px; border: 1px solid var(--border); background: var(--panel); color: var(--text); text-decoration: none; }
+nav { display: flex; gap: 20px; justify-content: center; margin-top: 32px; }
+footer { text-align: center; color: var(--dim); font-size: 14px; margin-top: 48px; }
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
