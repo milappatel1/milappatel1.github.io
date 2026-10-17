@@ -15,6 +15,7 @@ a { color: var(--accent); }
 .hero img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 0 40px rgba(255,170,80,0.25); }
 .badges { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 24px 0; }
 .badge { display: inline-block; padding: 12px 20px; border-radius: 999px; border: 1px solid var(--border); background: var(--panel); color: var(--text); text-decoration: none; }
+.badge.play { background: #ffc76a; border-color: #ffc76a; color: #2a1a08; font-weight: 700; }
 nav { display: flex; gap: 20px; justify-content: center; margin-top: 32px; }
 footer { text-align: center; color: var(--dim); font-size: 14px; margin-top: 48px; }
 ul { padding-left: 20px; }
